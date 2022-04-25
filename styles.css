@@ -1,0 +1,50 @@
+body{
+    max-width: 90%
+    margin-right: 100px
+    margin-left: 100px
+    background-image:  url https://www.craftdeology.com/wp-content/uploads/2019/03/The-Story-of-the-Chinese-Farmer.jpg;
+    background-repeat: no-repeat
+}
+section{
+    margin-top: 20px;
+    margin-bottom: 50px
+}
+blockquote{
+    margin-right: 200px;
+    font-family: Serif;
+    font-size: medium;
+
+
+}
+/*block*/
+    table, th, td {
+    width: 300px;
+    border: 1px solid;
+    border-collapse: collapse;
+    padding: 5px;
+    margin: 20px ;
+
+}
+p{
+    color: darkslateblue;
+    font-family: Serif;
+    letter-spacing: 3px;
+    font-size: 16px;
+
+}
+
+.good {
+    color:darkgreen;
+}
+.bad{
+    color: orangered;
+}
+a{
+    color: dodgerblue;
+}
+a:hover{
+    background-color: palevioletred;
+}
+a:visited{
+    color: purple;
+}
