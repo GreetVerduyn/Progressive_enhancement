@@ -11,6 +11,8 @@ body{
 header:first-child{
     background-color: yellow;}*/
 }
+
+
 section{
     margin-top: 20px;
     margin-bottom: 50px
@@ -30,7 +32,9 @@ section{
     padding: 5px;
     margin: 20px ;
 }
-
+    tr:nth-child (even){background-color: grey;
+    tr:nth-child(odd){background-color: white}
+}
 p{
     color: darkslateblue;
     font-family: Serif;
@@ -40,11 +44,18 @@ p{
 }
 
 .good {
+    text-transform: capitalize;
     color:green;
 }
 .bad{
-    color: orangered;
+    text-transform: capitalize;
+    color: red;
 }
+[class=good] {
+    text-transform: capitalize;
+    color:green;
+}
+
 a{
     color: dodgerblue;
 }
@@ -55,3 +66,15 @@ a:visited{
     color: purple;
 }
 [good]
+
+p:first-child{
+    font-weight: bold;
+}
+
+
+/*TO DO
+  footer {
+    vertical-align: middle;
+    border-color: inherit;
+}*/
+
